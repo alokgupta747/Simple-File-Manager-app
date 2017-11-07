@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:onClick="search"
+        android:id="@+id/i0"
+        android:title="New Folder"
+        app:showAsAction="always"
+        android:icon="@drawable/magnifier"/>
+
+    <item
+        android:onClick="createNewFolder"
+        android:id="@+id/i1"
+        android:title="New Folder"
+        app:showAsAction="always"
+        android:icon="@drawable/folder"/>
+
+    <item
+        android:onClick="createNewFile"
+        android:id="@+id/i2"
+        android:title="New File"
+        app:showAsAction="always"
+        android:icon="@drawable/archive"/>
+
+    <item
+        android:onClick="deleteFolder"
+        android:id="@+id/i3"
+        android:title="Delete Folder"/>
+
+    <item
+        android:onClick="deleteFile"
+        android:id="@+id/i4"
+        android:title="Delete File"/>
+</menu>

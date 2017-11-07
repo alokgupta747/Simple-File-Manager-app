@@ -1,0 +1,23 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/actv"
+        android:hint="Search"
+        android:visibility="gone"
+        android:layout_margin="10dp"/>
+
+
+    <ListView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv"
+        android:dividerHeight="2dp"
+        android:divider="#F00"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+
+</LinearLayout>
